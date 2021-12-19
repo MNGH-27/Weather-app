@@ -10,5 +10,4 @@ with Api of openWeatherApi
 
 ![Screenshot (81)](https://user-images.githubusercontent.com/66866297/146690239-2eee6de1-dff7-45e1-b90e-105432122be8.png)
 
-**loading**
 ![Screenshot (82)](https://user-images.githubusercontent.com/66866297/146690240-7038df60-f754-4c03-b5b2-0ddc8d980b12.png)
