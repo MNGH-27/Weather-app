@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/css/style.css">
+    <title>Weather App</title>
+</head>
+    <body>
+        <div class="container">
+            <div id="situation_container" class="day-situation_container">
+                <div class="day-situation_header">
+                    <h1 id="day">Tuesday</h1>
+                    <p id="date">15 jan 2019</p>
+                    <div class="location">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            style="width: 25px; height: 25px;"    
+                        >
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                        </svg>
+                        <h3> <span id="city"> Paris </span> , <span id="country"> Fr </span> </h3>
+                    </div>
+                </div>
+                    
+                <div class="day-situation_content">
+                    <div class="icon-container">
+                        <img class="icon" src="" alt="icon">
+                    </div>
+                    <div class="sit">
+                        <h1 id="temperature">29°C</h1>
+                        <p id="weather_sit">sunny</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right-container">
+                <div class="right-more_content">
+                    <div>
+                        <h3>HUMIDITY</h3>
+                        <p id="humidity">34 %</p>
+                    </div>
+                    <div>
+                        <h3>WIND</h3>
+                        <p id="windSpeed">0 km/h</p>
+                    </div>
+                </div>
+
+                <div class="right-days_container">
+                    <div id="today" class="active">
+                        <img class="day1_icon" src="" alt="icon">
+                        <p class="day1_day">Tue</p>
+                        <h3 class="day1_deg">29°C</h3>
+                    </div>
+                    <div id="tomorrow">
+                        <img class="day2_icon" src="" alt="icon">
+                        <p class="day2_day">Wed</p>
+                        <h3 class="day2_deg">21°C</h3>
+                    </div>
+                    <div id="dayAfterTomorrow">
+                        <img class="day3_icon" src="" alt="icon">
+                        <p class="day3_day">Thu</p>
+                        <h3 class="day3_deg">08°C</h3>
+                    </div>
+                </div>
+                
+                <div class="search-container">
+                    <input id="searchTextField" type="text" size="50" placeholder="Enter a location ..." autocomplete="on"/>
+                </div>
+            </div>
+        </div>
+        <div id="loader" class="loader">
+            <div class="inner one"></div>
+            <div class="inner two"></div>
+            <div class="inner three"></div>
+          </div>
+        <script src="assets/jQuery/jquery-min.js"></script>
+        <script src="assets/scripts/main.js"></script>
+    </body>
+</html>
